@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Font Awesome for menu icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="RAMAIAH_LOGO-removebg-preview (6).png"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+    </section>
+<!----abot us--->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Bengaluru’s Premier Educational Group</h1>
+            <p>Founded in 1962 by Dr. M.S. Ramaiah in Bengaluru, the M.S. Ramaiah Group of Institutions is a premier educational and healthcare organization. Comprising 19 institutions, it offers programs in engineering, medicine, management, law, arts, and sciences. Committed to quality education, innovation, and research, the group fosters holistic development and prepares students to excel globally.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="extraculicular.webp">
+        </div>
+    </div>
+
+</section>
+
+<!------footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>MS Ramaiah Group of Institutions is a premier educational hub in Bengaluru, offering excellence across Engineering, Medicine, Management, Law, and more.<br> With a legacy of innovation, state-of-the-art facilities, and a vibrant campus life, Ramaiah empowers students to achieve academic success and build impactful careers.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+    <p>MS Ramaiah Educational Institutions <i class="fa-solid fa-university"></i></p>
+</section>
+<!---------javascript-------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right ="0";
+        }
+        function hideMenu(){
+            navlinks.style.right ="-200px";
+        }
+    </script>
+    
+    
+</body>
+</html>
